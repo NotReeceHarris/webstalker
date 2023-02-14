@@ -36,10 +36,10 @@ else:
         del kernel32
 
 hero = f"""         
-  {LIGHT_RED}/ _ \{END}    __      __   _      ___ _        _ _             
-{LIGHT_RED}\_\(_)/_/{END}  \ \    / /__| |__  / __| |_ __ _| | |_____ _ _   
- {LIGHT_RED}_//"\\\_{END}    \ \/\/ / -_) '_ \ \\__ \  _/ _` | | / / -_) '_| 
-  {LIGHT_RED}/   \{END}      \_/\_/\___|_.__/ /___/\__\__,_|_|_\_\___|_|   
+  {LIGHT_GRAY}/ _ \{END}    __      __   _    ___ _        _ _             
+{LIGHT_GRAY}\_\({LIGHT_RED}X{END}{LIGHT_GRAY})/_/{END}  \ \    / /__| |__/ __| |_ __ _| | |_____ _ _   
+ {LIGHT_GRAY}_//"\\\_{END}    \ \/\/ / -_) '_ \__ \  _/ _` | | / / -_) '_| 
+  {LIGHT_GRAY}/   \{END}      \_/\_/\___|_.__/___/\__\__,_|_|_\_\___|_|   
 """
 
 status = {
@@ -48,5 +48,5 @@ status = {
     'success': f'[ {GREEN}✓{END} ]',
     'inform': f'[ {BOLD}{YELLOW}!{END} ]',
     'question': f'[ {BOLD}{BLUE}?{END} ]',
-    'input': f'[ {BOLD}{BLACK}>{END} ]',
+    'input': f'[ {BOLD}{PURPLE}>{END} ]',
 }
